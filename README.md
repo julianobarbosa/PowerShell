@@ -12,4 +12,10 @@ Invoke-Command -ComputerName (Get-ADCompouter -filter * | Select-Object -expand 
 ## Get-Command
 ```console
 Get-Command -CommandType Alias
+
+Get-Command *service* -CommandType cmdlet -Module ActiveDirectory
+
+Get-Command -verb get -noun service
+
+Get-Command -ParameterName computername
 ```
