@@ -19,3 +19,11 @@ Get-Command -verb get -noun service
 
 Get-Command -ParameterName computername
 ```
+
+## Foreach-Object
+```console
+dir c:\*.exe -Recurse | where {$_.cREATIONtIME.yEAR -EQ (Get_Date).Year} | 
+  % -Begin {Get-Date} `
+    -Process {Out-File exec-log.txt -Append -InputObject $_.FullName} `
+    -End {Get-Date}
+```
