@@ -31,3 +31,7 @@ function CanPing {
 function CanRemote {
     $session = New-PSSession $ComputerName -ErrorAction SilentlyContinue
 }
+
+if (CanPing $ComputerName) {
+    CanRemote $ComputerName
+}
