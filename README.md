@@ -27,3 +27,6 @@ dir c:\*.exe -Recurse | where {$_.cREATIONtIME.yEAR -EQ (Get_Date).Year} |
     -Process {Out-File exec-log.txt -Append -InputObject $_.FullName} `
     -End {Get-Date}
 ```
+
+# posh
+https://gist.github.com/jchandra74/5b0c94385175c7a8d1cb39bc5157365e
