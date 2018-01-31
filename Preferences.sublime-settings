@@ -1,0 +1,19 @@
+{
+	"draw_white_space": "all",
+    "rulers": [80],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"font_face": "Source Code Pro",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 11,
+	"http_proxy": "http://proxy_server:port",
+	"https_proxy": "http://proxy_server:port",
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}
