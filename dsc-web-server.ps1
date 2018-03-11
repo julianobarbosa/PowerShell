@@ -38,3 +38,16 @@ configuration IISConfig {
         }
     }
 }
+
+# create the configuration (.mof)
+IISConfig -ComputerName WEB-NUG -OutputPath c:\nuggetlab
+
+# push the configuration to WEB-NUG
+Start-DscConfiguration -Path c:\nuggetlab -Wait -Verbose
+
+#enter powershell remote session
+Enter-PSSession -ComputerName WEB-NUG
+
+# view installed features
+Get-WindowsFeature | Where-Object Installed -eq True
+
