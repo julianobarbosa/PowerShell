@@ -32,7 +32,9 @@ configuration IISConfig {
         # configure remote management service
         Service WMSVC {
             Name = 'WMSVC'
-            
+            StartupType = 'Automatic'
+            State = 'Running'
+            DependsOn = '[Registry]RemoteManagement'
         }
     }
 }
