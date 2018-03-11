@@ -51,3 +51,15 @@ Enter-PSSession -ComputerName WEB-NUG
 # view installed features
 Get-WindowsFeature | Where-Object Installed -eq True
 
+# view LCM properties
+Get-DscLocalConfigurationManager
+
+# view configurationsStatus
+Get-DscConfigurationsStatus
+
+# test configuration drift
+Test-DscConfiguration
+
+# exit powershell remote session
+Exit-PSSession
+
