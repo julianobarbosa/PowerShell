@@ -54,3 +54,6 @@ New-Cluster -Name CL-NUG -Node CL1-NUG, CL2-NUG -StaticAddress 192.168.1.150
 New-Cluster -Name CL-NUG -Node CL1-NUG, CL2-NUG -StaticAddress 192.168.1.150 -AdmistrativeAccessPoint Dns
 
 
+# Reference
+https://docs.microsoft.com/en-us/windows-server/failover-clustering/failover-clustering-overview
+
