@@ -5,7 +5,7 @@ copy-item –path $file –destination $file-backup –force
 
 $xml = [xml] (Get-Content $file)
 
-$Servers = @("gowsap45.pratika.br", "gowsap46.pratika.br") 
+$Servers = @("server1", "server2") 
 foreach ($server in $Servers) {
     $newserver = @($xml.ServerList.ServerInfo)[0].clone()
     $newserver.name = $server
