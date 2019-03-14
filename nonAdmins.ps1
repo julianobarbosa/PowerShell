@@ -96,6 +96,7 @@ cinst rktools.2003 -y
 choco install rdm -y
 choco install vmwareworkstation -y
 choco install rvtools -y
+choco install rufus -y
 cinst windbg -y
 cinst CutePDF -y
 cinst sqliteadmin -y
