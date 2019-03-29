@@ -1,3 +1,4 @@
+# URL: https://blog.ipswitch.com/implementing-chocolatey-self-service-for-non-admin-users-1
 # Set directory for installation - Chocolatey does not lock
 # down the directory if not the default
 $env:ChocolateyBinRoot="D:\tools"
