@@ -25,6 +25,7 @@ cinst GoogleChrome -y
 cinst sublimetext3 -y
 choco install sublimetext3.powershellalias -y
 choco install visualstudiocode -y
+choco install visualCppBuildTools -y
 choco install powershell-core -y
 cinst javaruntime -y
 cinst java.jdk -y
