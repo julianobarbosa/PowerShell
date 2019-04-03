@@ -27,10 +27,10 @@ choco install sublimetext3.powershellalias -y
 choco install visualstudiocode -y
 choco install visualCppBuildTools -y
 choco install powershell-core -y
+choco install neovim -y
 cinst javaruntime -y
 cinst java.jdk -y
 cinst notepadplusplus -y
-cinst vim -y
 cinst putty -y
 cinst sysinternals -y
 cinst git -y
