@@ -101,6 +101,7 @@ choco install rvtools -y
 choco install rufus -y
 choco install rapidee -y
 choco install gitkraken -y
+choco install teamviewer -y
 cinst windbg -y
 cinst CutePDF -y
 cinst sqliteadmin -y
