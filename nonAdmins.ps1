@@ -102,6 +102,7 @@ choco install rufus -y
 choco install rapidee -y
 choco install gitkraken -y
 choco install teamviewer -y
+choco install firacode -y
 cinst windbg -y
 cinst CutePDF -y
 cinst sqliteadmin -y
