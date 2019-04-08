@@ -103,6 +103,7 @@ choco install xming -y
 choco install ctags -y
 choco install dropbox -y
 choco install everything -y
+choco install linkshellextension -y
 cinst windbg -y
 cinst CutePDF -y
 cinst sqliteadmin -y
