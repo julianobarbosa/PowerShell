@@ -104,6 +104,7 @@ choco install ctags -y
 choco install dropbox -y
 choco install everything -y
 choco install linkshellextension -y
+choco install Ditto.install -y
 cinst windbg -y
 cinst CutePDF -y
 cinst sqliteadmin -y
