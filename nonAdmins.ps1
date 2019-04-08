@@ -102,6 +102,7 @@ choco install firacode -y
 choco install xming -y
 choco install ctags -y
 choco install dropbox -y
+choco install everything -y
 cinst windbg -y
 cinst CutePDF -y
 cinst sqliteadmin -y
