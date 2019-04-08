@@ -41,10 +41,6 @@ cinst vlc -y
 cinst ChocolateyGUI -y
 cinst Firefox -y
 cinst PowerShell -y
-cinst python -y
-cinst msysgit -y
-cinst ruby -y
-cinst ruby.devkit -y
 cinst flashplayeractivex -y
 cinst flashplayerplugin -y
 cinst fiddler -y
@@ -105,6 +101,7 @@ choco install teamviewer -y
 choco install firacode -y
 choco install xming -y
 choco install ctags -y
+choco install dropbox -y
 cinst windbg -y
 cinst CutePDF -y
 cinst sqliteadmin -y
