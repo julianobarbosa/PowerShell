@@ -106,6 +106,7 @@ choco install everything -y
 choco install linkshellextension -y
 choco install Ditto.install -y
 choco install ag -y
+choco install dbeaver -y
 cinst windbg -y
 cinst CutePDF -y
 cinst sqliteadmin -y
